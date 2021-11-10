@@ -100,3 +100,11 @@ with:
 ```
 
 See the [actions tab](https://github.com/actions/javascript-action/actions) for runs of this action! :rocket:
+
+## Actions to consider using
+
+- [S3 Sync · Actions · GitHub Marketplace](https://github.com/marketplace/actions/s3-sync)
+
+## Branding
+
+- [GitHub Actions Branding Cheat Sheet](https://haya14busa.github.io/github-action-brandings/)
