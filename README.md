@@ -1,18 +1,6 @@
-# Create a JavaScript Action
+# Salesforce Knowledge Article GitHub Actions
 
-<p align="center">
-  <a href="https://github.com/actions/javascript-action/actions"><img alt="javscript-action status" src="https://github.com/actions/javascript-action/workflows/units-test/badge.svg"></a>
-</p>
-
-Use this template to bootstrap the creation of a JavaScript action.:rocket:
-
-This template includes tests, linting, a validation workflow, publishing, and versioning guidance.
-
-If you are new, there's also a simpler introduction.  See the [Hello World JavaScript Action](https://github.com/actions/hello-world-javascript-action)
-
-## Create an action from this template
-
-Click the `Use this Template` and provide the new repo details for your action
+This is a GitHub Actions workflow that will create a new Salesforce Knowledge Article.
 
 ## Code in Main
 
@@ -34,17 +22,15 @@ $ npm test
 ...
 ```
 
-## Change action.yml
+## action.yml
 
-The action.yml defines the inputs and output for your action.
-
-Update the action.yml with your name, description, inputs and outputs for your action.
+This is what our action.yml looks like.
 
 See the [documentation](https://help.github.com/en/articles/metadata-syntax-for-github-actions)
 
-## Change the Code
+## index.js
 
-Most toolkit and CI/CD operations involve async operations so the action is run in an async function.
+This is the main code where we will be using javascript to interact with the Salesforce REST API to create a new Knowledge Article.
 
 ```javascript
 const core = require('@actions/core');
