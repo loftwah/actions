@@ -1,5 +1,9 @@
 name: 'Wait'
 description: 'Wait a designated number of milliseconds'
+author: 'Dean Lofts <dean@deanlofts.xyz>'
+branding:
+  icon: 'code'
+  color: 'gray-dark'
 inputs:
   milliseconds:  # id of input
     description: 'number of milliseconds to wait'
